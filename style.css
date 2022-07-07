@@ -6,10 +6,6 @@ body {
   align-items: center;
 }
 
-.gameover {
-  background-color: black;
-}
-
 ul {
   width: 50%;
   height: 50%;
@@ -25,17 +21,13 @@ li {
   box-sizing: border-box;
   /* box sizing to account for the 1px border. it keeps the box 25% exactly */
   background-color: white;
-}
-
-.active {
-  background-color: green;
-}
-
-.red {
-  background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 32px;
+}
+
+#it {
   color: white;
+  font-size: 55px;
+  font-family: sans-serif;
 }
